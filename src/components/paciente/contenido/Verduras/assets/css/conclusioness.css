@@ -1,0 +1,116 @@
+.credit-verdura-contenedor-grid-paciente {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  padding-inline: 3.5rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: start;
+  overflow: auto;
+}
+.over {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  overflow: scroll;
+}
+.text__ConPaciente {
+  font-size: 1.3rem;
+  white-space: pre-line;
+  color: #5e5d5c;
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .credit-verdura-contenedor-grid-paciente {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding-inline: 9rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    line-height: 1.8rem;
+    overflow: hidden;
+  }
+  .over {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+  }
+  .text__ConPaciente {
+    font-size: 1.5rem;
+    white-space: pre-line;
+    color: #5e5d5c;
+  }
+  .text__ConPacientePro {
+    font-size: 2rem;
+    white-space: pre-line;
+    line-height: 3rem;
+    color: #5e5d5c;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .credit-verdura-contenedor-grid-paciente {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding-inline: 9rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    line-height: 1.8rem;
+    overflow: hidden;
+  }
+  .over {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+  }
+  .text__ConPaciente {
+    font-size: 2rem;
+    white-space: pre-line;
+    color: #5e5d5c;
+    line-height: 2rem;
+  }
+  .text__ConPacientePro {
+    font-size: 2rem;
+    white-space: pre-line;
+    line-height: 3rem;
+    color: #5e5d5c;
+  }
+}
+@media only screen and (min-width: 1452px)  {
+  .credit-verdura-contenedor-grid-paciente {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding-inline: 9rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+    line-height: 2.5rem;
+    overflow: hidden;
+  }
+  .over {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    overflow: hidden;
+  }
+  .text__ConPaciente {
+    font-size: 2rem;
+    white-space: pre-line;
+    color: #5e5d5c;
+  }
+  .text__ConPacientePro {
+    font-size: 2rem;
+    white-space: pre-line;
+    line-height: 3rem;
+    color: #5e5d5c;
+  }
+}

@@ -1,0 +1,95 @@
+.estaciones-verduras__contenedor {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.estaciones-verduras__menu-estacion {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.estaciones__instruccion {
+  width: 30%;
+  height: auto;
+  position: absolute;
+}
+
+.estaciones-verduras__center-div {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.estaciones-verduras__center-div:nth-child(1) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.estaciones-verduras__center-div:nth-child(2) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.estaciones-verduras__boton-opt-e {
+  width: 33%;
+  height: 65%;
+  border-radius: 20%;
+  border: none;
+  background: none;
+  transition: 0.3s ease;
+}
+
+.estaciones-verduras__boton-opt-e img {
+  width: 100%;
+  height: 100%;
+}
+
+.estaciones-verduras__boton-opt-e:hover {
+  transform: scale(1.1);
+}
+
+.position-rel {
+  position: relative;
+  margin-right: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .position-rel {
+    position: relative;
+    margin-right: 15rem;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .estaciones-verduras__menu-estacion {
+    gap: 13rem;
+  }
+
+  .estaciones-verduras__boton-opt-e {
+    height: 70%;
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 312px) and (max-width: 926px) and (-webkit-min-device-pixel-ratio: 3) {
+  .estaciones-verduras__boton-opt-e {
+    height: 55%;
+  }
+}

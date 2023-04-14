@@ -1,0 +1,140 @@
+.navbar {
+  background-color: rgba(251, 159, 11, 0.534);
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  position: absolute;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  border-radius: 50%;
+}
+
+.menu-bars {
+  font-size: 2rem;
+  background: none;
+  color: white;
+}
+
+.nav-menu {
+  background-color: #fb9f0be5;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  z-index: 99;
+}
+
+.nav-menu.active {
+  right: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  color: white;
+  margin-left: -4rem;
+}
+
+.nav-text a {
+  margin-left: -1rem;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 5px;
+  justify-content: start;
+  transition: 0.3s ease all;
+}
+
+.nav-text a:hover {
+  background: rgb(5, 108, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 108, 242, 1) 26%,
+    rgba(5, 151, 242, 1) 50%,
+    rgba(5, 199, 242, 1) 100%
+  );
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #fb9f0bcb;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.span__navBar {
+  margin-left: 16px;
+  margin-top: 5px;
+}
+.navbar-button {
+  text-decoration: none;
+  list-style: none;
+}
+.button__cerrar-sesion{
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 6.5%;
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: #DF2E38;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.button__cerrar-sesion.button__cerrar-sesion{
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  color: white;
+}
+.button__cerrar-sesion:hover.button__cerrar-sesion{
+  background-color: #c7161f;
+}
+
+@media screen and (max-width: 640px) {
+  .navbar {
+    background-color: rgba(251, 159, 11, 0.534);
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    border-radius: 50%;
+  }
+  .button__cerrar-sesion{
+    height: 5%;
+  }
+}

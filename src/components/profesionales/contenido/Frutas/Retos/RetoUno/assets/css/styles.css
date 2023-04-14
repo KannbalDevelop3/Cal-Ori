@@ -1,0 +1,157 @@
+.reto__instruction {
+  width: 75%;
+  height: auto;
+  margin-top: -4rem;
+}
+
+.reto__cronometro {
+  width: 20%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.reto__time-rest {
+  position: absolute;
+  font-size: 2rem;
+  right: 7%;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.reto__fruit {
+  width: 100%;
+}
+
+.reto__question {
+  width: 90%;
+  height: auto;
+}
+
+.reto__button-answer {
+  border: none;
+  background: none;
+  border-radius: 60px;
+  outline: none;
+  width: 90%;
+  height: auto;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.reto__button-answer img {
+  width: 100%;
+  height: auto;
+}
+
+/* 
+.reto__button-answer:hover {
+    transform: scale(1.1);
+} */
+
+.mb {
+  margin-bottom: 2rem;
+}
+
+.d-flex {
+  display: flex;
+}
+.no-drop {
+  cursor: no-drop;
+}
+
+.reto__answer,
+.reto__answer-incorrect,
+.reto__answer-incorrect:hover,
+.reto__answer:hover {
+  border-radius: 25px;
+  opacity: 1;
+  background: rgb(251, 178, 17);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 178, 17, 1) 0%,
+    rgba(251, 178, 17, 1) 35%,
+    rgba(251, 178, 17, 0.7343312324929971) 100%
+  );
+  cursor: no-drop;
+}
+
+.reto__answer-acert {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 2rem;
+  left: -2.5rem;
+}
+
+.reto__modal-retro {
+  width: 100%;
+}
+
+.reto__modal-finish {
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  .reto__cronometro {
+    width: 15%;
+    height: auto;
+    margin-right: 4rem;
+  }
+
+  .reto__time-rest {
+    font-size: 4rem;
+    right: 5.5%;
+  }
+  .reto__answer,
+  .reto__answer-incorrect,
+  .reto__answer-incorrect:hover,
+  .reto__answer:hover {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .reto__cronometro {
+    width: 15%;
+    height: auto;
+    margin-right: 4rem;
+  }
+  .reto__time-rest {
+    font-size: 4rem;
+    right: 5.5%;
+    top: 1rem;
+  }
+  .reto__answer,
+  .reto__answer-incorrect,
+  .reto__answer-incorrect:hover,
+  .reto__answer:hover {
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (min-width: 1451px) and (max-width: 1920px) {
+  .reto__instruction {
+    margin-top: -12rem;
+  }
+
+  .reto__cronometro {
+    width: 15%;
+    height: auto;
+    margin-right: 4rem;
+  }
+
+  .reto__time-rest {
+    font-size: 4rem;
+    right: 5.5%;
+  }
+  .reto__answer {
+    border-radius: 50px;
+  }
+}

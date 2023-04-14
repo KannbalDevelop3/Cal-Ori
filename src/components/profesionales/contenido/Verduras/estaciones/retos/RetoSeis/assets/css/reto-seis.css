@@ -1,0 +1,344 @@
+.reto-seis__inicio {
+  margin-top: 1rem;
+}
+.reto-seis__instruction {
+  width: 100%;
+  height: auto;
+  margin-top: 9rem;
+}
+
+.temporizador {
+  left: 52%;
+  position: absolute;
+  font-size: 200%;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%),
+    0px 18px 23px rgb(0 0 0 / 10%);
+}
+
+.modal-finish {
+  width: 100%;
+}
+
+/*Juego*/
+.reto-seis__contenedor {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 0.2fr 1.8fr;
+  background-image: url("../images/game/FONDO.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.columnas {
+  padding: 2.5rem 7rem;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  margin-top: -2rem;
+  font-weight: bold;
+}
+#question4 {
+  margin-top: 1rem;
+}
+
+.reloj {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+.reloj img {
+  width: 16%;
+  height: auto;
+}
+
+.columna-uno {
+  display: grid;
+  align-items: center;
+  margin-top: -0.5rem;
+  row-gap: 1rem;
+  padding: 1rem 0;
+  padding-inline-start: 2rem;
+}
+
+.respuesta {
+  width: 100%;
+  height: auto;
+  display: grid;
+  font-weight: bold;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+}
+
+.pregunta-primero-pro {
+  font-size: 1.3rem;
+  margin: 0;
+  word-spacing: 0.55rem;
+  text-align: justify;
+  margin-top: -0.5rem;
+}
+.pregunta-primero-pro:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+#question-2,
+#question-5 {
+  text-align: start;
+}
+.renglon-pregunta {
+  display: grid;
+  /* width: 100%;
+  height: 100%; */
+  grid-template-columns: 5% 95%;
+}
+.pregunta-segundo-pro {
+  padding-inline-start: 1rem;
+  font-size: 1.3rem;
+  margin-top: -0.5rem;
+  text-align: justify;
+}
+
+/**/
+.columna-dos {
+  padding-top: 0.5rem;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin-top: -1.5rem;
+  align-items: center;
+}
+
+.texto-pregunta-pro {
+  padding-inline-end: 1.5rem;
+  margin-top: 0.5rem;
+  line-height: 16px;
+  font-size: 1.3rem;
+  margin-left: -1rem;
+  text-align: justify;
+}
+
+.input-pregunta {
+  border-radius: 8%;
+  width: 30px;
+  outline: none;
+  border: none;
+  border-block-start: none;
+  border-block-end: none;
+  border-radius: none;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 27px;
+  color: white;
+  text-shadow: 0px 4px 3px rgb(0 0 0 / 40%), 0px 8px 13px rgb(0 0 0 / 10%),
+    0px 18px 23px rgb(0 0 0 / 10%);
+}
+
+.incorrect-seis {
+  animation: agitaX;
+  animation-duration: 1s;
+}
+
+@keyframes agitaX {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .reto-seis__inicio {
+    margin-top: 10rem;
+  }
+  .reto-seis__instruction {
+    width: 100%;
+    height: auto;
+    margin-top: 14rem;
+  }
+  .reloj {
+    margin-top: 2rem;
+  }
+  .temporizador {
+    font-size: 350%;
+  }
+
+  .pregunta-primero-pro,
+  .pregunta-segundo-pro,
+  .texto-pregunta-pro {
+    font-size: 1.55rem;
+  }
+  .texto-pregunta-pro {
+    line-height: 28px;
+    padding-inline-end: 3.5rem;
+  }
+
+  .columna-uno {
+    margin-top: 4rem;
+  }
+
+  .in-question-seis {
+    width: 50px;
+    height: 44px;
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+  .input-pregunta {
+    width: 45px;
+    height: 45px;
+    font-size: 3.4rem;
+  }
+  .columna-dos {
+    margin-top: -0.5rem;
+    padding: 3.5rem 0 2rem;
+    align-items: center;
+  }
+  .columnas {
+    column-gap: 3rem;
+    padding: 1rem 15rem 6rem;
+    margin-top: -2rem;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .temporizador {
+    font-size: 400%;
+  }
+  .reloj {
+    margin: 3rem 0rem 6rem;
+    padding-bottom: 3rem;
+  }
+  .pregunta-primero-pro,
+  .pregunta-segundo-pro,
+  .texto-pregunta-pro {
+    font-size: 1.55rem;
+  }
+  .texto-pregunta-pro {
+    line-height: 30px;
+    margin-top: 1rem;
+    padding-inline-end: 3.5rem;
+  }
+  .columnas {
+    margin-top: -4.5rem;
+    column-gap: 4rem;
+    padding: 6rem 12rem;
+  }
+  .input-pregunta {
+    width: 55px;
+    height: 47px;
+    font-size: 3.8rem;
+    font-weight: 600;
+  }
+  .columna-dos {
+    margin-top: -2rem;
+    padding: 1rem 0;
+  }
+  .reto-seis__inicio {
+    margin-top: 16rem;
+  }
+  .reto-seis__instruction {
+    width: 100%;
+    height: auto;
+    margin-top: 18rem;
+  }
+  .reto-seis__inicio {
+    margin-top: 16rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .reto-seis__inicio {
+    margin-top: 22rem;
+  }
+  .reto-seis__instruction {
+    margin-top: 20rem;
+  }
+  .reto-seis__contenedor {
+    grid-template-rows: 0.4fr 1.6fr;
+  }
+  .temporizador {
+    font-size: 450%;
+  }
+  .reloj {
+    margin-top: 0;
+    padding: 4rem 0 5rem;
+    margin-bottom: 0rem;
+  }
+  .pregunta-primero-pro,
+  .pregunta-segundo-pro,
+  .texto-pregunta-pro {
+    font-size: 2rem;
+  }
+  .texto-pregunta-pro {
+    line-height: 40px;
+    margin-top: 1rem;
+    padding-inline-end: 3.5rem;
+  }
+  .columnas {
+    margin-top: -3.5rem;
+    column-gap: 4rem;
+    padding: 5rem 22rem;
+  }
+  .input-pregunta {
+    width: 70px;
+    height: 58px;
+    font-size: 4.6rem;
+    font-weight: 600;
+  }
+  .columna-uno {
+    display: grid;
+    align-items: center;
+    margin-top: -0.5rem;
+    row-gap: 0rem;
+    padding: 3rem 0;
+    padding-inline-start: 2rem;
+    margin-top: -3rem;
+  }
+  .columna-dos {
+    margin-top: -2.5rem;
+    padding: 2rem 0 0;
+  }
+  .respuesta:nth-child(2){
+    margin-top: 3.5rem;
+  }
+  .respuesta:nth-child(3){
+    margin-top: 0rem;
+  }
+  .respuesta:nth-child(4){
+    position: relative;
+    top: 3.5rem;
+  }
+  .respuesta:nth-child(5){
+    position: relative;
+    top: 3.5rem;
+  }
+}

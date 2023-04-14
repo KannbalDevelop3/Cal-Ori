@@ -1,0 +1,721 @@
+.composicion__contenedor {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%, cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/Fondo_base.png");
+  overflow: hidden;
+  display: grid;
+}
+.composicion__grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 80%;
+  gap: 5px 5px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-inline: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.composicion__texto-composicion {
+  display: grid;
+  justify-items: start;
+  align-items: center;
+}
+.composicion__texto-composicion img {
+  width: 65%;
+  height: auto;
+  padding-top: 3rem;
+}
+.imagen__tt-1 {
+  position: relative;
+  top: 0rem;
+  display: block;
+  font-size: 1.5rem;
+  color: #0f0e03;
+  line-height: 2.5rem;
+  font-weight: 100;
+  width: 100%;
+  height: auto;
+}
+.imagen__tt-1-part1 {
+  display: block;
+}
+.imagen__tt-1-part2 {
+  display: block;
+  padding-inline-start: 3.5rem;
+}
+.composicion__table-container {
+  width: 100%;
+  height: 100%;
+  margin-top: -5rem;
+}
+.table__table-contenido {
+  width: 100%;
+  height: 47em;
+}
+.table__doctor-container {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  left: 8%;
+  top: 1em;
+}
+.table__doctor_imagen {
+  width: 80%;
+  height: auto;
+}
+
+.table__cuadritos {
+  width: 55%;
+  height: 5em;
+}
+.table__cuadritos__a {
+  width: 55%;
+  height: 8em;
+}
+.table__cuadritos__b {
+  width: 55%;
+  height: 6em;
+}
+.table__cuadritos__c {
+  width: 55%;
+  height: 8em;
+}
+
+.table__cuadritos_1 {
+  width: 40%;
+  height: auto;
+  text-align: end;
+  z-index: 1;
+}
+.table__cuadritos_2 {
+  width: 5%;
+  height: 5em;
+  text-align: center;
+  z-index: 5;
+  position: relative;
+}
+.table__botons-1 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  bottom: 1em;
+}
+.table__botons-2 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 0.6em;
+}
+.table__botons-3 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  bottom: 1.7em;
+}
+.table__botons-4 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 0.8em;
+}
+.table__botons-5 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 0.7em;
+}
+.table__botons-6 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+}
+.table__botons-7 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+}
+.t-body-container {
+  width: 100%;
+  height: 100%;
+}
+.table__botons-1a {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 0.5em;
+}
+.table__botons-2a {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 1.3em;
+}
+.table__botons-3a {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  bottom: 1em;
+}
+.table__botons-4-4 {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 2em;
+}
+.table__botons-5a {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 1.5em;
+}
+.table__botons-6a {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+  position: relative;
+  top: 1em;
+}
+
+/* Otros Estilos */
+.composicion__grid-column {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 45% 5% 50%;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #0f0e03;
+}
+.composicion__columna-uno {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+.composicion__columna-uno img {
+  width: 28%;
+  /* margin-top: 2rem; */
+  position: absolute;
+  left: 12rem;
+  top: 19rem;
+}
+.composicion__ocho-puntos {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1 1fr);
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+  position: relative;
+  right: 130px;
+}
+.composicion__img-puntos img {
+  width: 60%;
+  height: auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.composicion__img-puntos {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 40px;
+  height: 40px;
+}
+.composicion__img-puntos:nth-child(1) {
+  position: relative;
+  top: 0rem;
+  border-radius: 50px;
+}
+.composicion__img-puntos:nth-child(2) {
+  position: relative;
+  top: 2.5rem;
+  border-radius: 50px;
+}
+.composicion__img-puntos:nth-child(3) {
+  position: relative;
+  top: 1rem;
+  border-radius: 50px;
+}
+.composicion__img-puntos:nth-child(4) {
+  position: relative;
+  top: 4rem;
+  border-radius: 50px;
+}
+.composicion__img-puntos:nth-child(5) {
+  position: relative;
+  top: 2.5rem;
+  border-radius: 50px;
+}
+.composicion__img-puntos:nth-child(6) {
+  position: relative;
+  top: 0.6rem;
+  border-radius: 50px;
+}
+.composicion__img-puntos:nth-child(7) {
+  position: relative;
+  bottom: 1rem;
+  border-radius: 50px;
+}
+.composicion__img-textos {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1 1fr);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: 17%;
+  overflow: hidden;
+}
+.composicion__texto-mostrar {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 25px;
+  justify-items: start;
+  margin-right: 1rem;
+}
+.composicion__img-textos {
+  margin-top: 4rem;
+}
+.imagen__tt-1 {
+  font-size: 2rem;
+  color: #0f0e03;
+  line-height: 2rem;
+}
+.imagen__tt-2 {
+  font-size: 2rem;
+  color: #0f0e03;
+  line-height: 2rem;
+}
+.composicion__imagen-doctor {
+  position: relative;
+  width: 90%;
+  top: 1rem;
+  left: 3rem;
+}
+/* Estilos Ootros*/
+
+.composicion__contenedor-doctor {
+  display: grid;
+  grid-template-columns: 1.1fr 0.3fr 1.6fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  margin-top: 2rem;
+}
+
+.composicion__doctor_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1px;
+}
+
+.composicion__doctor_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 0.8fr 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1px;
+}
+.composicion__doctor_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 0.8fr 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr;
+  grid-auto-columns: 1fr;
+  gap: 1px;
+  grid-auto-flow: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.doctor__boton {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.doctor__btn-azul {
+  width: 65%;
+  height: auto;
+  cursor: pointer;
+  z-index: 1;
+}
+.composicion__texto-nutrimental {
+  font-size: 1.5rem;
+  display: block;
+  color: #0f0e03;
+  line-height: 2rem;
+  font-weight: 100;
+}
+.composicion__texto-nutrimental-part-1 {
+  display: block;
+  margin-left: 5rem;
+}
+.composicion__texto-nutrimental-part-2 {
+  display: block;
+  margin-left: 5rem;
+}
+.btn__estado-1 {
+  position: relative;
+  bottom: 1rem;
+}
+.btn__estado-2 {
+  position: relative;
+  top: 1rem;
+}
+.btn__estado-3 {
+  position: relative;
+  bottom: 1rem;
+}
+.btn__estado-4 {
+  position: relative;
+  top: 1rem;
+}
+.btn__estado-5 {
+  position: relative;
+  top: 1rem;
+}
+.btn__estado-6 {
+  position: relative;
+  top: 0.8rem;
+}
+.btn__estado-7 {
+  position: relative;
+  top: 1.2rem;
+}
+.composicion__cont-texto {
+  position: relative;
+  top: 1rem;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .imagen__tt-1 {
+    top: 1rem;
+    display: block;
+    font-size: 1rem;
+    color: #0f0e03;
+    line-height: 1.5rem;
+    font-weight: 100;
+    width: 100%;
+    height: auto;
+  }
+  .imagen__tt-1-part1 {
+    display: block;
+  }
+  .imagen__tt-1-part2 {
+    display: block;
+    padding-inline-start: 3.5rem;
+  }
+  .imagen__tt-2 {
+    display: block;
+    font-size: 1rem;
+    color: #0f0e03;
+    line-height: 1.5rem;
+    font-weight: 100;
+    top: 1rem;
+    width: 100%;
+    height: auto;
+  }
+  .imagen__tt-2-part1 {
+    display: block;
+    padding-inline-start: 3.5rem;
+  }
+  .imagen__tt-2-part2 {
+    display: block;
+    padding-inline-start: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 312px) and (max-width: 926px) {
+  .composicion__grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+  }
+  .composicion__texto-composicion img {
+    width: 70%;
+    height: auto;
+    padding-top: 0rem;
+  }
+  .composicion__columna-uno {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .composicion__columna-uno img {
+    width: 70%;
+    margin-top: 1.5rem;
+  }
+  .composicion__table-container {
+    width: 100%;
+    height: 90%;
+    margin-top: 0rem;
+  }
+  .responsive__doctor {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0rem;
+  }
+  .responsive__fila-doctor {
+    width: 30%;
+    height: auto;
+  }
+  .responsive__fila-puntos {
+    width: 5%;
+    height: auto;
+  }
+  .responsive__fila-textos {
+    width: 65%;
+    height: auto;
+  }
+  .responsive__puntos {
+    width: 55%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+  }
+  .pt__1 {
+    position: relative;
+    bottom: 0.7rem;
+  }
+  .pt__2 {
+    position: relative;
+    top: 0.5rem;
+  }
+  .pt__3 {
+    position: relative;
+    bottom: 1rem;
+  }
+  .pt__4 {
+    position: relative;
+    bottom: 0rem;
+  }
+  .pt__5 {
+    position: relative;
+    bottom: 0.5rem;
+  }
+  .pt__6 {
+    position: relative;
+    bottom: 1rem;
+  }
+  .pt__7 {
+    position: relative;
+    bottom: 0.7rem;
+  }
+
+  .pt__1a {
+    position: relative;
+    bottom: 1rem;
+  }
+  .pt__2a {
+    position: relative;
+    top: 0.7rem;
+  }
+  .pt__3a {
+    position: relative;
+    top: 0.5rem;
+  }
+  .pt__4a {
+    position: relative;
+    top: 2.5rem;
+  }
+  .pt__5a {
+    position: relative;
+    top: 2rem;
+  }
+  .pt__6a {
+    position: relative;
+    top: 1.5rem;
+  }
+  .pt__7a {
+    position: relative;
+    top: 1rem;
+  }
+
+  .imagen__tt-1 {
+    font-size: 1.1rem;
+    color: #0f0e03;
+    line-height: 1.3rem;
+    top: -0.7rem;
+  }
+  .imagen__tt-2 {
+    font-size: 1rem;
+    color: #0f0e03;
+    line-height: 1rem;
+  }
+}
+/* @media only screen and (min-width: 390px) and (max-width: 926px) {
+}
+@media only screen and (min-width: 312px) and (max-width: 389px) {
+} */
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .composicion__texto-composicion img {
+    width: 68%;
+    height: auto;
+    padding-top: 3rem;
+  }
+  .composicion__grid-container {
+    height: 90vh;
+  }
+  .composicion__texto-nutrimental {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .composicion__imagen-doctor {
+    width: 100%;
+    height: auto;
+    top: 1.3rem;
+    left: 3rem;
+  }
+  .btn__estado-1 {
+    bottom: 1rem;
+  }
+  .btn__estado-2 {
+    top: 1.6rem;
+  }
+  .btn__estado-3 {
+    bottom: 1.5rem;
+  }
+  .btn__estado-4 {
+    top: 1.5rem;
+  }
+  .btn__estado-5 {
+    top: 1.3rem;
+  }
+  .btn__estado-6 {
+    top: 0.8rem;
+  }
+  .btn__estado-7 {
+    top: 0.8rem;
+  }
+  .composicion__cont-texto {
+    top: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1455px) {
+  .composicion__texto-composicion {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    width: 100%;
+  }
+  .composicion__texto-composicion img {
+    padding-top: 10rem;
+  }
+  .composicion__imagen-doctor {
+    width: 94%;
+    top: 1.5em;
+    left: 4rem;
+  }
+  .composicion__texto-nutrimental {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+  .btn__estado-1 {
+    bottom: 1rem;
+  }
+  .btn__estado-2 {
+    top: 1.8rem;
+  }
+  .btn__estado-3 {
+    bottom: 1.5rem;
+  }
+  .btn__estado-4 {
+    top: 2rem;
+  }
+  .btn__estado-5 {
+    top: 1.5rem;
+  }
+  .btn__estado-6 {
+    top: 1rem;
+  }
+  .btn__estado-7 {
+    top: 1rem;
+  }
+  .doctor__btn-azul {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 312px) and (max-width: 926px) and (-webkit-min-device-pixel-ratio: 3) {
+  .btn__estado-1 {
+    position: relative;
+    bottom: 1rem;
+  }
+  .btn__estado-2 {
+    position: relative;
+    top: 1.5rem;
+  }
+  .btn__estado-3 {
+    position: relative;
+    bottom: 1.6rem;
+  }
+  .btn__estado-4 {
+    position: relative;
+    top: 3rem;
+  }
+  .btn__estado-5 {
+    position: relative;
+    top: 3rem;
+  }
+  .btn__estado-6 {
+    position: relative;
+    top: 3.5rem;
+  }
+  .btn__estado-7 {
+    position: relative;
+    top: 2rem;
+  }
+}

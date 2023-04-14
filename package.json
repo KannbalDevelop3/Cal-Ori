@@ -1,0 +1,67 @@
+{
+  "name": "cal-ori",
+  "version": "1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "primeflex": "^3.1.2",
+    "primeicons": "^5.0.0",
+    "primereact": "^7.2.0",
+    "react": "^17.0.2",
+    "react-card-flip": "^1.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.27.0",
+    "react-image-and-background-image-fade": "^1.0.8",
+    "react-lazy-load-image-component": "^1.5.5",
+    "react-range": "^1.8.14",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "6",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "react-slider": "^2.0.3",
+    "react-transition-group": "^4.4.2",
+    "react-use-window-size": "^1.0.1",
+    "react-use-window-sizes": "^1.0.3",
+    "sass": "^1.57.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5",
+    "use-sound": "^4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync build/ s3://nutrifood --acl public-read"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "postcss": "^8.4.20",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1"
+  }
+}

@@ -1,0 +1,155 @@
+.composicion-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1.9fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-inline: 2rem;
+}
+.composicion__titles {
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+.composicion__hortaliza-title {
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.composicion__contenido-verduras {
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 1px 1px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: -7rem;
+  padding-inline: 2rem;
+}
+.composiciom__contenedor-secundario {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.part-1,
+.part-2,
+.part-3,
+.part-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.part-1 {
+  width: 40%;
+  height: auto;
+}
+.part-2 {
+  width: 100%;
+  height: auto;
+}
+.part-3 {
+  width: 30%;
+  height: auto;
+}
+.part-4 {
+  width: 100%;
+  height: auto;
+}
+.img-text-2 {
+  width: 100%;
+}
+
+.composiciom__contenedor-secundario:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media screen and (min-width: 1024px) {
+  .composicion__contenido-verduras {
+    margin-top: -8rem;
+  }
+  .img-icon {
+    width: 100%;
+    height: 50%;
+  }
+  .img-text-1 {
+    width: 80%;
+  }
+  .composiciom__contenedor-secundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-text-2 {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .composicion__hortaliza-title {
+    width: 65%;
+    margin-top: 3.5rem;
+  }
+  .composicion__contenido-verduras {
+    margin-top: -8rem;
+  }
+  .img-icon {
+    width: 100%;
+    height: 50%;
+  }
+  .img-text-1 {
+    width: 80%;
+  }
+  .composiciom__contenedor-secundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-text-2 {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .composicion__hortaliza-title {
+    width: 60%;
+    margin-top: 8.5rem;
+  }
+  .composicion__contenido-verduras {
+    margin-top: -8rem;
+  }
+  .img-icon {
+    width: 100%;
+    height: 50%;
+  }
+  .img-text-1 {
+    width: 80%;
+  }
+  .composiciom__contenedor-secundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-text-2 {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1920px) {
+  .composicion__hortaliza-title {
+    width: 58%;
+    margin-top: 10rem;
+  }
+  .composicion__contenido-verduras {
+    margin-top: -15rem;
+  }
+  .img-text-2 {
+    width: 85%;
+  }
+}

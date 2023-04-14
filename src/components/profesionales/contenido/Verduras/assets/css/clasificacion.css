@@ -1,0 +1,261 @@
+.clasificacion-verdura__contenedor {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.clasificacion-verdura__textos {
+  display: grid;
+  justify-items: start;
+  justify-content: start;
+  padding-inline: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.clasificacion-verdura__title {
+  width: 93%;
+  height: auto;
+  margin-top: 2rem;
+}
+.clasificacion-verdura__texto {
+  height: auto;
+  width: 50%;
+}
+
+.clasificacion-verdura__inst {
+  width: 40%;
+  height: auto;
+  margin-top: -1rem;
+}
+.clasificacion-verdura__seis {
+  display: flex;
+  justify-content: center;
+  padding-inline: 1rem;
+  gap: 0.5rem;
+  margin-top: -1rem;
+}
+.clasificacion-verdura__contendor-ti {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+}
+.clasificacion-verdura__hortalizas {
+  transition: 0.3s ease;
+  width: 95%;
+  height: auto;
+  cursor: pointer;
+}
+.clasificacion-verdura__hortalizas:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 10px rgb(142, 5, 155));
+}
+/* .clasificacion-verdura__contendor-ti:nth-last-child(2) {
+  margin-top: 1rem;
+}
+.clasificacion-verdura__contendor-ti:nth-last-child(3) {
+  margin-top: 1rem;
+}
+.clasificacion-verdura__contendor-ti:nth-last-child(4) {
+  margin-top: 1rem;
+}
+.clasificacion-verdura__contendor-ti:nth-last-child(5) {
+  margin-top: 1rem;
+} */
+.clasificacion-verdura__titulo {
+  width: 50%;
+  height: auto;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.tooltiptext img {
+  width: 100%;
+  height: auto;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 125px;
+  height: 50px;
+  background: linear-gradient(90deg, #6a68a6 0%, #638bbf 100%);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  top: 15.5rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.clasificacion-verdura__separador {
+  margin-top: 7rem;
+}
+.clasificacion-verdura__separador-2 {
+  margin-top: 2rem;
+}
+/* and (max-width: 1366px) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  /* .clasificacion-verdura__title {
+    width: 93%;
+    height: 65%;
+  } */
+  .clasificacion-verdura__title {
+    margin-top: 3rem;
+    width: 90%;
+    height: 65%;
+  }
+  .clasificacion-verdura__texto {
+    width: 40%;
+  }
+  .clasificacion-verdura__inst {
+    width: 30%;
+  }
+  
+  /* .clasificacion-verdura__contendor-ti:nth-last-child(2) {
+    margin-top: 2rem;
+  }
+  .clasificacion-verdura__contendor-ti:nth-last-child(3) {
+    margin-top: 2rem;
+  }
+  .clasificacion-verdura__contendor-ti:nth-last-child(4) {
+    margin-top: 2rem;
+  }
+  .clasificacion-verdura__contendor-ti:nth-last-child(5) {
+    margin-top: 2rem;
+  } */
+  .tooltip .tooltiptext {
+    width: 160px;
+    height: 90px;
+    color: #fff;
+    /* Position the tooltip */
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 25.5rem;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .clasificacion-verdura__title {
+    width: 90%;
+    height: auto;
+    margin-top: 7.5rem;
+  }
+  .clasificacion-verdura__inst {
+    width: 35%;
+  }
+  .clasificacion-verdura__seis {
+    display: flex;
+    justify-content: center;
+    padding-inline: 1rem;
+    gap: 0.5rem;
+    margin-top: -3rem;
+  }
+  .hortalizas-verdura__img-circle {
+    width: 120%;
+    max-width: 120%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .hortalizas-verdura__absoluto:nth-child(1) {
+    right: 25rem;
+    top: 3rem;
+    width: 60%;
+  }
+  .hortalizas-verdura__absoluto:nth-child(2) {
+    right: 16rem;
+    top: 7.6rem;
+    width: 60%;
+  }
+  .hortalizas-verdura__absoluto:nth-child(3) {
+    right: 13rem;
+    top: 15.5rem;
+    width: 60%;
+  }
+  .hortalizas-verdura__absoluto:nth-child(4) {
+    right: 15rem;
+    bottom: 8rem;
+    width: 60%;
+  }
+  .hortalizas-verdura__absoluto:nth-child(5) {
+    right: 25rem;
+    bottom: 1.5rem;
+    width: 60%;
+  }
+  .tooltip .tooltiptext {
+    width: 250px;
+    height: 120px;
+    color: #fff;
+    /* Position the tooltip */
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 30rem;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1455px) and (max-width: 1920px) {
+  .clasificacion-verdura__title {
+    margin-top: 8rem;
+    width: 100%;
+    height: auto;
+  }
+  .clasificacion-verdura__inst {
+    width: 35%;
+  }
+  /* .clasificacion-verdura__contendor-ti:nth-last-child(2) {
+    margin-top: 2rem;
+  }
+  .clasificacion-verdura__contendor-ti:nth-last-child(3) {
+    margin-top: 2rem;
+  }
+  .clasificacion-verdura__contendor-ti:nth-last-child(4) {
+    margin-top: 2rem;
+  }
+  .clasificacion-verdura__contendor-ti:nth-last-child(5) {
+    margin-top: 2rem;
+  } */
+  .tooltip .tooltiptext {
+    width: 250px;
+    height: 120px;
+    color: #fff;
+    /* Position the tooltip */
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 36rem;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .clasificacion-verdura__separador {
+    margin-top: 9rem;
+  }
+}

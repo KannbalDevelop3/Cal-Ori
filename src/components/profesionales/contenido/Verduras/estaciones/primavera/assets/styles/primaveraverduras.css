@@ -1,0 +1,56 @@
+.primavera-verduras__menu-estacion {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  gap: 8rem;
+}
+.primavera-verduras__center-div {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+.primavera-verduras__center-div:nth-child(1) {
+  display: flex;
+  justify-content: end;
+}
+.primavera-verduras__center-div:nth-child(2) {
+  display: flex;
+  justify-content: start;
+}
+.primavera-verduras__boton-opt-e {
+  width: 45%;
+  height: auto;
+  border-radius: 20%;
+  border: none;
+  background: none;
+  transition: 0.3s ease;
+}
+.primavera-verduras__boton-opt-e img {
+  width: 100%;
+  height: 100%;
+  background: #00000000;
+  border: none;
+  border-radius: 4rem;
+}
+.primavera-verduras__boton-opt-e:hover {
+  transform: scale(1.1);
+}
+@media screen and (min-width: 1024px) {
+  .primavera-verduras__boton-opt-e {
+    width: 40%;
+  }
+  .primavera-verduras__center-div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+  }
+  .primavera-verduras__center-div:nth-child(2) {
+    display: flex;
+    justify-content: start;
+  }
+}

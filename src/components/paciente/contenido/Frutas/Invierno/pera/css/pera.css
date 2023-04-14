@@ -1,0 +1,115 @@
+.fondo__pera {
+  background-image: url("../images/fondo.png");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%, cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.pera__seccion-centrar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.pera__absolute-1 {
+  position: absolute;
+  bottom: 1.5%;
+  left: 6%;
+  width: 3%;
+}
+.pera__absolute-1 img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.pera__absolute-2 {
+  position: absolute;
+  bottom: 1%;
+  right: 5%;
+  width: 3%;
+}
+.pera__absolute-2 img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.pera__absolute-1 img:hover {
+  transform: scale(1.1);
+}
+.pera__absolute-2 img:hover {
+  transform: scale(1.1);
+}
+.pera__botones-filter {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: flex-end;
+  width: 45%;
+  background-color: #7e8c14;
+  height: 2vh;
+  flex-direction: row;
+  border-radius: 25px;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 8%;
+}
+.pera__active-boton {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.pera__boton-circulo {
+  background-color: #f4f4f4;
+  border: none;
+  width: 70px;
+  height: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: rgb(112, 110, 110);
+}
+.pera__modal {
+  width: 100%;
+  height: auto;
+}
+.fade-in-image {
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 312px) and (max-width: 926px) {
+  .pera__botones-filter {
+    width: 50%;
+    height: 4.2vh;
+  }
+  .pera__absolute-1 {
+    position: fixed;
+    width: 5%;
+    left: 3rem;
+  }
+  .pera__absolute-2 {
+    position: fixed;
+    bottom: 0%;
+    right: 5%;
+    width: 5%;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  
+}

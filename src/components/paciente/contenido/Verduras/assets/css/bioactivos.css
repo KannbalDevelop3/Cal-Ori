@@ -1,0 +1,70 @@
+.bioactivos-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1.8fr;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding-inline: 2rem;
+  overflow: hidden;
+}
+.biactivos__titles {
+  width: 100%;
+  height: 100%;
+}
+.biactivos__title-principal{
+  margin-top: 2rem;
+}
+.biactivos__contenido {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+.bioactivos__contenido-imagen {
+  display: grid;
+  justify-items: end;
+  align-items: start;
+}
+.biactivos__contenido-imagen-position {
+  position: relative;
+  bottom: 2rem;
+}
+
+.biactivo__contenedor-textos {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+  margin-top: -6rem;
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .biactivos__title-principal {
+    width: 79%;
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .biactivos__title-principal {
+    width: 75%;
+    margin-top: 9rem;
+  }
+
+}
+@media only screen and (min-width: 1452px) and (max-width: 1920px) {
+  .biactivos__title-principal {
+    width: 80%;
+    margin-top: 9.5rem;
+  }
+}

@@ -1,0 +1,140 @@
+.indice-verdura__grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  grid-template-rows: 100%;
+  padding-inline: 2rem;
+}
+.indice-verdura-contenedor-grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  padding-inline: 1rem;
+}
+.indice-verdura__title {
+  width: 45%;
+  height: auto;
+  margin-top: 1rem;
+}
+/* .indice-verdura__title{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fc5c04;
+  margin: 0;
+} */
+.indice-verdura__instruccion {
+  width: 70%;
+  height: auto;
+  margin-top: -0.5rem;
+}
+.indice-verdura__tema-contenedor {
+  margin-top: 1rem;
+}
+.indice-verdura__tema-titulo {
+  font-size: clamp(0.5rem, 1.1rem, 3rem);
+  color: #fb9e0b;
+  line-height: 0.8em;
+}
+.indice-verdura__tema-span {
+  color: #0f0e03;
+  font-weight: 100;
+}
+.indice-verdura__tema-span-disabled {
+  color: #5e5d5c;
+  font-weight: 100;
+}
+.indice-verdura__lista {
+  list-style: none;
+}
+.indice-verdura__imagen-end {
+  width: 100%;
+  height: auto;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.indice-verdura__img-circle {
+  width: 100%;
+  height: auto;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.indice-verdura__img-circle img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 4rem;
+  right: 3rem;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .indice-verdura__title {
+    margin-top: 1.1rem;
+    width: 40%;
+  }
+  .indice-verdura__tema-titulo {
+    font-size: clamp(0.5rem, 2rem, 2.5rem);
+    line-height: 1.5rem;
+  }
+  .indice-verdura__img-circle img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 9rem;
+    right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1920px) {
+  .indice-verdura__tema-titulo {
+    font-size: clamp(0.5rem, 2.3rem, 3rem);
+    line-height: 1.5em;
+  }
+  .indice-verdura__title {
+    margin-top: 5rem;
+    width: 42%;
+  }
+  .indice-verdura__img-circle img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 13rem;
+    right: 3rem;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .indice-verdura__tema-titulo {
+    line-height: 1.2em;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1920px) {
+  .indice-verdura__tema-titulo {
+    font-size: clamp(0.5rem, 2.3rem, 3rem);
+    line-height: 1.5em;
+  }
+  .indice-verdura__title {
+    margin-top: 5rem;
+    width: 42%;
+  }
+  .indice-verdura__img-circle img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 13rem;
+    right: 3rem;
+  }
+}
+@media not all and (min-resolution: 0.001dpcm) {
+  .indice-verdura__tema-titulo {
+    font-size: clamp(0.5rem, 0.8rem, 2rem);
+    line-height: 0.7em;
+  }
+  .indice-verdura__title {
+    width: 40%;
+  }
+}

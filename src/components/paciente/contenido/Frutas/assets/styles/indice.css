@@ -1,0 +1,194 @@
+.indicee__contenedor-opciones {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/slide-4.png");
+  overflow: hidden;
+  display: grid;
+}
+.indice__grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  grid-template-rows: 100%;
+}
+.indice__padding {
+  padding-inline-start: 3rem;
+}
+.indice__padding img {
+  width: 40%;
+  height: auto;
+  margin-top: 1rem;
+}
+.indice__tema-contenedor {
+  margin-top: 3rem;
+}
+.indice__tema-titulo {
+  font-size: clamp(0.5rem, 2rem, 2.5rem); 
+  color: #fb9e0b;
+  line-height: 0.8em;
+}
+.indice__tema-span {
+  color: #0F0E03!important;
+  font-weight: 100;
+}
+.indice__tema-span-disabled {
+  color: #5e5d5c;
+  font-weight: 100;
+}
+.indice__lista {
+  list-style: none;
+}
+.step__menu-component {
+  z-index: 1;
+}
+.indicee__contenido-principal {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  padding-inline: 2%;
+  width: 100%;
+  height: 100%;
+}
+.indicee__boton-siguiente:nth-child(1) {
+  /* border: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+  justify-content: end; */
+  transition: 0.3s ease;
+  position: absolute;
+  left: 1%;
+  bottom: 1%;
+  width: 3.5%;
+}
+.indicee__boton-siguiente:nth-child(2) {
+  /* border: none;
+  background: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+  justify-content: start; */
+  transition: 0.3s ease;
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  width: 3.5%;
+}
+.indicee__boton-siguiente:hover {
+  transform: scale(1.1);
+}
+.indicee__boton-siguiente img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.indice__links {
+  text-decoration: none;
+}
+.indice__links-disabled{
+  text-decoration: none;
+  pointer-events: none;
+}
+.indice__imagen-end {
+  display: grid;
+  align-items: end;
+  justify-items: start;
+}
+.indice__imagen-end img {
+  width: 100%;
+  margin-left: -7rem;
+  margin-top: 3rem;
+}
+
+.listaIndice {
+  margin-bottom: 10px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 872px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .indice__title {
+    width: 45%;
+    margin-top: 1rem;
+  }
+  .indice__tema-contenedor {
+    margin-top: 1rem;
+  }
+  .indice__tema-titulo {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 312px) and (max-width: 926px){
+  .indice__padding img {
+    width: 30%;
+    margin-top: 0.5rem;
+  }
+  .indice__tema-contenedor {
+    margin-top: 0rem;
+  }
+  .indice__tema-titulo {
+    font-size: clamp(0.5rem, 1.2rem, 3rem); 
+    color: #fb9e0b;
+    line-height: 1em;
+  }
+  .indice__tema-span {
+    color: #0F0E03!important;
+    font-weight: 100;
+  }
+  .indicee__boton-siguiente:nth-child(1) {
+    width: 6%;
+    position: fixed;
+    bottom: 0;
+  }
+  .indicee__boton-siguiente:nth-child(2) {
+    position: fixed;
+    bottom: 0;
+    width: 6%;
+  }
+  .indice__imagen-end {
+    align-items: center;
+  }
+  .indice__imagen-end img {
+    margin-left: -1rem;
+    margin-top: 0;
+  }
+}
+@media not all and (min-resolution: 0.001dpcm) {
+  .indice__tema-titulo{
+    font-size: clamp(0.5rem, 0.8rem, 2rem); 
+    line-height: 0.7em;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1450px) {
+  .indice__tema-titulo {
+    font-size: clamp(0.5rem, 2.5rem, 2.5rem); 
+  }
+  .indice__tema-span {
+    color: #0F0E03!important;
+    font-weight: 100;
+  }
+}
+@media only screen and (min-width: 1455px)  {
+  .indice__tema-titulo {
+    font-size: clamp(0.5rem, 3rem, 3rem); 
+  }
+  .indice__tema-span {
+    color: #0F0E03!important;
+    font-weight: 100;
+  }
+}
+@media only screen and (min-width: 1455px) and (max-width: 1920px) {
+  .indice__padding img {
+    margin-top: 5rem;
+  }
+}

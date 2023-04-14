@@ -1,0 +1,181 @@
+.procesos__contenedor-pro {
+  width: 100%;
+  height: 100vh;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/Fondo_base.png");
+  overflow: hidden;
+  display: grid;
+}
+.procesos__contenedor-botones {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30% 50% 20%;
+  width: 100%;
+  height: 100%;
+}
+.processo__titulo-principal {
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.procesos__grid {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  padding-inline-start: 4rem;
+  width: 100%;
+  height: auto;
+}
+.procesos__grid img {
+  width: 58%;
+  height: auto;
+}
+.procesos__maduracion {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.proceso__titles {
+  width: 70%;
+  height: auto;
+}
+.procesos__maduracion-contenedor {
+  display: grid;
+  grid-template-columns: 45% 10% 45%;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.procesos__center {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+}
+.procesos__imagen-boton {
+  display: flex;
+  padding: 1rem;
+}
+.procesos__boton-img {
+  border: none;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin: 1px;
+  background: none;
+}
+
+.procesos__boton-img img {
+  width: 100%;
+  height: auto;
+}
+.procesos__boton-img:hover {
+  transform: scale(1.1);
+}
+.procesos__etapas {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  padding-inline-start: 4rem;
+}
+.procesos__etapas img {
+  width: 38%;
+  height: auto;
+}
+.procesos__imagen-modal {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 312px) and (max-width: 926px) {
+  .procesos__grid {
+    margin-top: 0rem;
+  }
+  .procesos__grid img {
+    width: 75%;
+    height: auto;
+  }
+  .proceso__titles {
+    width: 80%;
+    height: auto;
+  }
+  .procesos__maduracion-contenedor{
+    gap: 0;
+    height: 80%;
+  }
+  .procesos__imagen-modal {
+    width: 100%;
+    height: auto;
+  }
+  .procesos__boton-img {
+    border: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 1px;
+  }
+  .procesos__boton-img img {
+    width: 100%;
+    height: auto;
+  }
+  .procesos__boton-img {
+    width: 110px;
+    height: 110px;
+    margin: 0;
+  }
+  .procesos__etapas img {
+    width: 42%;
+    height: auto;
+  }
+  .proceso__titles {
+    width: 65%;
+    height: auto;
+  }
+  .procesos__center {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    bottom: 1.3rem;
+  }
+  .procesos__etapas {
+    position: relative;
+    bottom: 2.3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding-inline-start: 4rem;
+  }
+  
+}
+@media only screen and (min-width: 1455px) and (max-width: 1920px) {
+  .procesos__grid img {
+    margin-top: 10rem;
+  }
+}

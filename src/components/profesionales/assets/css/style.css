@@ -1,0 +1,54 @@
+.ebook__contenido-principal {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-inline: 2%;
+  margin-top: -5%;
+}
+.ebook__boton-siguiente {
+  border: none;
+  background: none;
+  width: 12%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  transition: 0.3s ease;
+}
+.ebook__boton-siguiente:hover {
+  transform: scale(1.1);
+}
+.ebook__boton-siguiente-flecha {
+  border: none;
+  background: none;
+  width: 8%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  transition: 0.3s ease;
+}
+.ebook__boton-siguiente-flecha:hover {
+  transform: scale(1.1);
+}
+.ebook__boton-siguiente-flecha img {
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+}
+.ebook__boton-siguiente img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+@media only screen and (min-width: 312px) and (max-width: 926px) {
+  /* Styles */
+  .ebook__boton-siguiente {
+    width: 18%;
+  }
+  .ebook__boton-siguiente-flecha {
+    width: 10%;
+  }
+}

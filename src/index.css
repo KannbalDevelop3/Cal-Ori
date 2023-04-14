@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Monserrat;
+  src: url("./components/assets/fonts/Montserrat-Regular.otf")
+    format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Babes";
+  src: url("./components/assets/fonts/BebasNeueProRegular.otf")
+      format("opentype"),
+    url("./components/assets/fonts/BebasNeueProBook.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Babes";
+  src: url("./components/assets/fonts/BebasNeueProBold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 900;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Monserrat", sans-serif;
+}
+
+.p-password input {
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 25px;
+}
+
+.toast-login button {
+  min-width: 10rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .toast-login button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 80%;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #fb9e0b, #f27405);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+  width: 8px;
+  height: 5%;
+}
+.error-vertical__container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  flex-direction: row;
+  padding-inline: 5rem;
+}
+.error-vertical__grid {
+  display: grid;
+}
+.error-vertical__imagen-error {
+  width: 100%;
+}
+.error-vertical__text {
+  color: #0f0e03;
+  text-align: center;
+}
+@media only screen and (min-width: 1452px) {
+  .p-password input {
+    height: 5rem;
+  }
+}
+link {
+  text-decoration: none;
+}
+.reset-link {
+  text-decoration: none;
+}
+.zIndex {
+  z-index: 99;
+}
+
+.animates {
+  animation: pulses 1s linear infinite;
+}
+
+@keyframes pulses {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

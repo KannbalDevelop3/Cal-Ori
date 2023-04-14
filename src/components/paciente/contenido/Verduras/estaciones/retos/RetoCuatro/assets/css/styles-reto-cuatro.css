@@ -1,0 +1,264 @@
+  .reto__cuatro__instruction {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+
+  .reto__cuatro__instruction-four {
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+  }
+  
+  .reto__cuatro__cronometro {
+    width: 16%;
+    height: auto;
+    margin-right: 2rem;
+  }
+  
+  .reto__cuatro__time-rest {
+    position: absolute;
+    font-size: 1.7rem;
+    right: 6%;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reto__cuatro__fruit {
+    width: 100%;
+  }
+  
+  .reto__cuatro__question {
+    width: 70%;
+    height: auto;
+    position: relative;
+    left: 5rem;
+  }
+  .reto__cuatro__answers {
+    width: 55%;
+    height: auto;
+    margin-left: 4rem;
+    position: relative;
+    left: 4rem;
+  }
+  .reto__cuatro__button-answer {
+    position: relative;
+    left: 3rem;
+    border: none;
+    background: none;
+    border-radius: 60px;
+    outline: none;
+    width: 65%;
+    height: auto;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .reto__cuatro__button-answer img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mb__cuatro {
+    margin-bottom: 2rem;
+  }
+  
+  .d-flex__cuatro {
+    display: flex;
+  }
+  .no-drop__cuatro{
+      cursor: no-drop;
+  }
+  
+  .reto__cuatro__answer,
+  .reto__cuatro__answer-incorrect,
+  .reto__cuatro__answer-incorrect:hover,
+  .reto__cuatro__answer:hover {
+    border-radius: 25px;
+    opacity: 1;
+    background: rgb(251, 178, 17);
+    background: linear-gradient(
+      90deg,
+      rgba(251, 178, 17, 1) 0%,
+      rgba(251, 178, 17, 1) 35%,
+      rgba(251, 178, 17, 0.7343312324929971) 100%
+    );
+    cursor: no-drop;
+  }
+  .max-w-6{
+    margin-top: -2rem;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reto__cuatro__answer-acert {
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+  }
+
+  .img__acert__cuatro{
+    width: 35px;
+    height: 35px;
+  }
+  
+  .reto__cuatro__modal-retro {
+    width: 100%;
+  }
+  
+  .reto__cuatro__modal-finish {
+    width: 100%;
+  }
+  
+  .absolute__cuatro {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+    .max-w-6{
+      position: relative;
+      right: 10rem;
+      row-gap: 2rem;
+    }
+    .reto__cuatro__instruction{
+      margin-top: 18rem;
+    }
+    .reto__cuatro__instruction-four{
+      margin-top: 18rem;
+    }
+    .reto__cuatro__button-answer{
+      width: 30rem;
+      position: relative;
+      left: 5rem;
+    }
+    .d-flex__cuatro{
+      position: relative;
+      left: 2.5rem;
+    }
+    .reto__cuatro__question{
+      width: 70rem;
+    }
+    .reto__cuatro__answers{
+      width: 60rem;
+      position: relative;
+      left: 6rem;
+    }
+    .reto__cuatro__answer-acert{
+      top: 2rem;
+    }
+    .reto__cuatro__cronometro {
+      width: 15%;
+      height: auto;
+      margin-right: 4rem;
+    }
+
+    .reto__cuatro__time-rest {
+      font-size: 4rem;
+      right: 6%;
+    }
+
+    .reto__cuatro__answer,
+    .reto__cuatro__answer-incorrect,
+    .reto__cuatro__answer-incorrect:hover,
+    .reto__cuatro__answer:hover {
+      border-radius: 60px;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width: 1450px) {
+    .reto__cuatro__instruction-four {
+      margin-top: 18rem;
+    }
+    .reto__cuatro__cronometro {
+      width: 15%;
+      height: auto;
+      margin-right: 4rem;
+    }
+    .reto__cuatro__answer-acert{
+      top: 2rem;
+    }
+    .reto__cuatro__time-rest {
+      font-size: 3.5rem;
+      right: 5%;
+    }
+    .reto__cuatro__answer,
+    .reto__cuatro__answer-incorrect,
+    .reto__cuatro__answer-incorrect:hover,
+    .reto__cuatro__answer:hover {
+      border-radius: 60px;
+    }
+    .reto__cuatro__button-answer{
+      width: 30rem;
+      position: relative;
+      left: 12rem;
+    }
+    .reto__cuatro__question{
+      width: 75rem;
+    }
+    .reto__cuatro__answers{
+      width: 60rem;
+      position: relative;
+      left: 8rem;
+    }
+    .max-w-6{
+      position: relative;
+      right: 15rem;
+      row-gap: 3rem;
+    }
+  }
+  
+  @media only screen and (min-width: 1451px) {
+    .reto__cuatro__button-answer{
+      width: 40rem;
+      left: -2.5rem;
+    }
+    .reto__cuatro__instruction {
+      margin-top: 30rem;
+    }
+    .reto__cuatro__instruction-four {
+      margin-top: 35rem;
+    }
+    .max-w-6{
+      position: relative;
+      right: 19rem;
+      row-gap: 3rem;
+    }
+    .reto__cuatro__time-rest {
+      font-size: 5rem;
+      right: 5%;
+      font-weight: bold;
+    }
+    .reto__cuatro__question{
+      width: 90rem;
+    }
+    .reto__cuatro__answers{
+      width: 75rem;
+      position: relative;
+      left: 8rem;
+    }
+    .d-flex__cuatro{
+      position: relative;
+      left: 7rem;
+    }
+    .reto__cuatro__answer-acert{
+      top: 2rem;
+      left: 3rem;
+    }
+  
+    .reto__cuatro__cronometro {
+      width: 15%;
+      height: auto;
+      margin-right: 4rem;
+    }
+    .reto__cuatro__answer,
+    .reto__cuatro__answer-incorrect,
+    .reto__cuatro__answer-incorrect:hover,
+    .reto__cuatro__answer:hover {
+      border-radius: 90px;
+    }
+  }
+  
