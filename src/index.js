@@ -7,8 +7,6 @@ import reportWebVitals from './reportWebVitals';
 import "primereact/resources/themes/saga-green/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 
 import { Nutrifoot } from './Nutrifoot';
 
